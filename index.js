@@ -5,7 +5,7 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-        if(this.scrollY > 500){
+        if(this.scrollY > 20){
             $('.scroll-up-btn').addClass("show");
         }else{
             $('.scroll-up-btn').removeClass("show");
@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     // owl carousel script
     $('.carousel').owlCarousel({
-        marging: 20,
+        margin: 20,
         loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
