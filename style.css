@@ -727,6 +727,9 @@ footer span a:hover{
 }
 
 @media (max-width: 947px){    
+    .navbar .logo a{
+        font-size: 30px;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
