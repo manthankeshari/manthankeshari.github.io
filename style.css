@@ -55,10 +55,12 @@ html{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
-    transition: color 0s ease ;
+    transition: color 0s ease;
+    padding: 6px 15px;
+    border-radius: 30px;
 }
 .navbar .menu li a:hover{
+    border: 2px solid crimson;
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
@@ -80,11 +82,11 @@ html{
     right: 30px;
     bottom: 10px;
     text-align: center;
-    line-height: 42.5px;
+    line-height: 40px;
     color: #fff;
     z-index: 9999;
     font-size: 30px;
-    border-radius: 7px;
+    border-radius: 20px;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -180,9 +182,9 @@ section .title::after{
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 60px;
     border: 2px solid crimson;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 .home .home-content a:hover{
     color: crimson;
@@ -208,7 +210,7 @@ section .title::after{
     height: 350px;
     width: 350px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .about .about-content .right{
     width: 55%;
@@ -232,7 +234,7 @@ section .title::after{
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 30px;
     border: 2px solid crimson;
     transition: all 0s ease;
 }
@@ -269,7 +271,7 @@ section .title::after{
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 30px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
@@ -342,7 +344,7 @@ section .title::after{
 }
 .team .carousel .card{
     background: #222;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
@@ -409,7 +411,7 @@ section .title::after{
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .contact .contact-content .left p{
     text-align: justify;
@@ -422,8 +424,14 @@ section .title::after{
     height: 65px;
     align-items: center;
 }
+.contact .contact-content .row .partition{
+    border-left: 2.5px solid gray;
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin-left: 14px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -445,7 +453,7 @@ section .title::after{
     margin-bottom: 15px;
 }
 .contact .right form .textarea{
-    height: 80px;
+    height: 100px;
     width: 100%;
 }
 .contact .right .name{
@@ -459,7 +467,7 @@ section .title::after{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
-    border-radius: 6px;
+    border-radius: 30px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -481,7 +489,7 @@ section .title::after{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    border-radius: 6px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -495,6 +503,7 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
+    border-radius: 1.5px;
 }
 footer span a{
     color: crimson;
@@ -519,7 +528,7 @@ footer span a:hover{
     width: 450px;
     background: rgba(255, 255, 255, .5);
     padding: 4rem;
-    border-radius: 10px;
+    border-radius: 30px;
     position: relative;
 }
 
@@ -529,7 +538,7 @@ footer span a:hover{
     inset: 0;
     background: rgba(255, 255, 255, .15);
     transform: rotate(-6deg);
-    border-radius: 10px;
+    border-radius: 30px;
     z-index: -1;
 }
 /* ---------- */
@@ -830,5 +839,8 @@ footer span a:hover{
         width: 280px;
         padding: 2rem;
     }
-
 }
+
+
+
+
